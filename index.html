@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kelvin Aswani - Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+/* CUSTOM STYLES */
+#projects {
+    /* CUSTOM STYLES */
+#projects {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: #4CAF50;
+}
+
+.project-number {
+    font-size: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.project-card h3 {
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tag {
+    background: #e8f5e9;
+    color: #4CAF50;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-card {
+        padding: 15px;
+    }
+    
+    .project-image {
+        max-width: 120px;
+    }
+}
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #4CAF50;
+}
+
+.project-number {
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #7f8c8d;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-tag {
+    background: #e8f5e9;
+    color: #4CAF50;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.project-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-card {
+        padding: 20px;
+    }
+}
+</style>
+</head>
+<body id="top">
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <div class="fl_left">
+      <ul class="nospace">
+        <li><i class="fas fa-mobile-alt rgtspace-5"></i> +254 716 706 426</li>
+        <li><i class="far fa-envelope rgtspace-5"></i> aswankelvin03@gmail.com</li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul class="nospace">
+        <li><a href="https://www.linkedin.com/in/kelvinaswani" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Kelvin-Aswani" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://x.com/aswankelvin?s=21" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.tiktok.com/@neuramedis" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+        <li><a href="https://www.instagram.com/neuramedis" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper row1">
+  <section id="ctdetails" class="hoc clear"> 
+    <ul class="nospace clear">
+      <li class="one_quarter first">
+        <div class="block clear"><a href="tel:+254716706426"><i class="fas fa-phone"></i></a> <span><strong>Call me:</strong> +254 716 706 426</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="mailto:aswankelvin03@gmail.com"><i class="fas fa-envelope"></i></a> <span><strong>Email:</strong> aswankelvin03@gmail.com</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="#"><i class="fas fa-clock"></i></a> <span><strong>Available:</strong> Mon - Fri: 9am - 5pm</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="https://goo.gl/maps/" target="_blank"><i class="fas fa-map-marker-alt"></i></a> <span><strong>Location:</strong> Nairobi, Kenya</span></div>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<div class="bgded overlay padtop" style="background-image:url('images/demo/backgrounds/01.png');"> 
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <h1><a href="index.html">Kelvin Aswani</a></h1>
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <ul class="clear">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Add to CSS -->
+<style>
+  /* Profile Image Styles */
+  .profile-image-container {
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+  
+  .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 3px solid #64ffda;
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+  }
+  
+  /* Modified Personal Details Card */
+  #personal-details {
+      text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+      .profile-image {
+          width: 150px;
+          height: 150px;
+      }
+  }
+  </style>
+  
+  <div class="wrapper row3" id="about">
+    <main class="hoc container clear"> 
+      <div class="unified-profile-box">
+        <!-- Left Column - Image & Details -->
+        <div class="profile-column">
+          <div class="profile-image-container">
+            <img src="swan.jpg" alt="Kelvin Aswani" class="profile-image">
+          </div>
+          <div class="personal-details">
+            <h3><i class="fas fa-user-tie"></i> Personal Details</h3>
+            <ul>
+              <li><strong>Name:</strong> Lumbaya Kelvin Aswani</li>
+              <li><strong>Email:</strong> aswankelvin03@gmail.com</li>
+              <li><strong>Phone:</strong> +254 716 706 426</li>
+              <li><strong>Location:</strong> Nairobi, Kenya</li>
+              <li><strong>Nationality:</strong> Kenyan</li>
+            </ul>
+          </div>
+        </div>
+  
+        <!-- Right Column - About Text -->
+        <div class="about-column">
+          <div class="sectiontitle">
+            <h6 class="heading">About Me</h6>
+          </div>
+          <p>I am a dedicated medical student at Jomo Kenyatta University of Agriculture and Technology (JKUAT) and a software engineering student at Power Learn Project Academy. My expertise spans healthcare, technology, and AI-driven solutions, with a strong focus on medical research, leadership, and innovation.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <style>
+  .unified-profile-box {
+    background: rgba(10, 25, 47, 0.9);
+    border-radius: 15px;
+    border-left: 4px solid #64ffda;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+  }
+  
+  .profile-column {
+    flex: 0 0 250px;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #64ffda;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+  
+  .personal-details h3 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .personal-details ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .personal-details li {
+    margin-bottom: 0.5rem;
+    color: #8892b0;
+  }
+  
+  .about-column {
+    flex: 1;
+  }
+  
+  .about-column .heading {
+    color: #64ffda;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-column p {
+    color: #e6f1ff;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .unified-profile-box {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .profile-column {
+      flex: none;
+      width: 100%;
+    }
+    
+    .profile-image {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  </style>
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');" id="skills">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h6 class="heading">Skills & Competencies</h6>
+    </div>
+    <ul class="nospace group grid-3">
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-users"></i></a>
+          <h6 class="heading">Leadership & Management</h6>
+          <p>Proven ability to lead teams and manage organizations effectively.</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-chart-line"></i></a>
+          <h6 class="heading">Strategic Planning</h6>
+          <p>Expertise in policy implementation and strategic development.</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-microphone"></i></a>
+          <h6 class="heading">Public Speaking</h6>
+          <p>Strong communication skills for effective presentations.</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-database"></i></a>
+          <h6 class="heading">Research & Analysis</h6>
+          <p>Skilled in medical research and data analysis.</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-code"></i></a>
+          <h6 class="heading">Web Development</h6>
+          <p>Proficient in Python and AI integration.</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-handshake"></i></a>
+          <h6 class="heading">Relationship Management</h6>
+          <p>Excellent interpersonal and financial management skills.</p>
+        </article>
+      </li>
+    </ul>
+  </section>
+</div><!-- Add to CSS -->
+<style>
+/* CV Section Styles */
+#cv {
+    padding: 4rem 0;
+    background: #020c1b;
+}
+
+.cv-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cv-card {
+    background: rgba(10, 25, 47, 0.9);
+    border-left: 3px solid #64ffda;
+    padding: 2rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.cv-card:hover {
+    transform: translateY(-5px);
+}
+
+.cv-heading {
+    color: #64ffda;
+    border-bottom: 2px solid rgba(100, 255, 218, 0.3);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cv-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cv-list li {
+    margin-bottom: 0.8rem;
+    color: #8892b0;
+}
+
+.cv-list strong {
+    color: #e6f1ff;
+}
+
+@media (max-width: 768px) {
+    .cv-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<!-- CV Section HTML -->
+<div class="wrapper row3" id="cv">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h6 class="heading">Curriculum Vitae</h6>
+    </div>
+
+    <div class="cv-grid">
+        <!-- Personal Details -->
+        <article class="cv-card">
+            <h3 class="cv-heading"><i class="fas fa-user-tie"></i> Personal Details</h3>
+            <ul class="cv-list">
+                <li><strong>Name:</strong> Lumbaya Kelvin Aswani</li>
+                <li><strong>Email:</strong> aswankelvin03@gmail.com</li>
+                <li><strong>Phone:</strong> +254 716 706 426</li>
+                <li><strong>Location:</strong> Nairobi, Kenya</li>
+                <li><strong>Nationality:</strong> Kenyan</li>
+            </ul>
+        </article>
+
+        <!-- Education -->
+        <article class="cv-card">
+            <h3 class="cv-heading"><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="cv-item">
+                <h4>Bachelor of Medicine and Surgery</h4>
+                <p class="cv-sub">Jomo Kenyatta University of Agriculture and Technology (JKUAT)</p>
+                <p class="cv-date">Present</p>
+            </div>
+            <div class="cv-item">
+                <h4>KCSE (A Plain)</h4>
+                <p class="cv-sub">St John The Baptist Likuyani Boys High School</p>
+                <p class="cv-date">2020 - 2023</p>
+            </div>
+        </article>
+
+        <!-- Professional Experience -->
+        <article class="cv-card">
+            <h3 class="cv-heading"><i class="fas fa-briefcase"></i> Experience</h3>
+            <div class="cv-item">
+                <h4>Relationship Manager - Equity Bank</h4>
+                <p class="cv-sub">Key Achievements:</p>
+                <ul class="cv-list">
+                    <li>Activated 500+ customer accounts</li>
+                    <li>Increased customer base by 18.75%</li>
+                    <li>Implemented customer feedback system (+20% satisfaction)</li>
+                </ul>
+                <p class="cv-date">Feb 2024 - Aug 2024</p>
+            </div>
+        </article>
+
+        <!-- Achievements -->
+        <article class="cv-card">
+            <h3 class="cv-heading"><i class="fas fa-trophy"></i> Achievements</h3>
+            <ul class="cv-list">
+                <li>Founded NeuraMedis healthcare platform</li>
+                <li>Improved KCSE mean score by 9.25%</li>
+                <li>Mentored 30+ students in STEM subjects</li>
+                <li>Accenture Data Analytics Simulation Completion</li>
+                <li>Volleyball Coaching Leadership</li>
+            </ul>
+        </article>
+
+        <!-- Skills -->
+        <article class="cv-card">
+            <h3 class="cv-heading"><i class="fas fa-code"></i> Technical Skills</h3>
+            <ul class="cv-list">
+                <li><strong>Web Development:</strong> Python, AI Integration</li>
+                <li><strong>Data Analysis:</strong> Cleaning, Modeling, Visualization</li>
+                <li><strong>Software Engineering:</strong> Currently in Training</li>
+            </ul>
+        </article>
+
+        <!-- Extracurricular -->
+        <article class="cv-card">
+            <h3 class="cv-heading"><i class="fas fa-volleyball-ball"></i> Activities</h3>
+            <ul class="cv-list">
+                <li>Professional Volleyball Player/Coach</li>
+                <li>Youth Mentorship Programs</li>
+                <li>Educational Strategy Development</li>
+            </ul>
+        </article>
+    </div>
+  </section>
+</div>
+
+<div class="wrapper row3" id="projects">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h6 class="heading">My Projects</h6>
+    </div>
+    
+    <div class="project-grid">
+        <article class="project-card">
+            <div class="project-number">01</div>
+            <img src="logo.jpg" alt="NeuraMedis" class="project-image" style="width: 250px; height: auto;">
+            <h3>NeuraMedis</h3>
+            <div class="project-tags">
+                <span class="project-tag">AI Healthcare</span>
+                <span class="project-tag">Medical Platform</span>
+                <span class="project-tag">Mental Wellness</span>
+            </div>
+            <p>A digital health platform integrating AI-driven insights for improved medical knowledge access.</p>
+        </article>
+
+        <article class="project-card">
+            <div class="project-number">02</div>
+            <img src="logo.jpg" alt="Medical AI Assistant" class="project-image" style="width: 250px; height: auto;">
+            <h3>Medical AI Assistant</h3>
+            <div class="project-tags">
+                <span class="project-tag">Machine Learning</span>
+                <span class="project-tag">Medical Education</span>
+                <span class="project-tag">Case Studies</span>
+            </div>
+            <p>AI-powered tool assisting medical students with anatomical references and learning resources.</p>
+        </article>
+
+        <article class="project-card">
+            <div class="project-number">03</div>
+            <img src="OIP (1).jpeg" alt="Food Delivery System" class="project-image" style="width: 250px; height: auto;">
+            <h3>Online Food Delivery System</h3>
+            <div class="project-tags">
+                <span class="project-tag">Web Development</span>
+                <span class="project-tag">University Solution</span>
+                <span class="project-tag">E-commerce</span>
+            </div>
+            <p>Streamlined web-based platform for campus food ordering and delivery services.</p>
+        </article>
+
+        <article class="project-card">
+            <div class="project-number">04</div>
+            <img src="analayzing.png" alt="Medical Research" class="project-image" style="width: 250px; height: auto;">
+            <h3>Medical Data Analysis</h3>
+            <div class="project-tags">
+                <span class="project-tag">Data Science</span>
+                <span class="project-tag">Healthcare Analytics</span>
+                <span class="project-tag">Research</span>
+            </div>
+            <p>Advanced analytics for disease prediction and patient data management.</p>
+        </article>
+    </div>
+  </section>
+</div>
+
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kelvin Aswani - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* ======== UPDATED COLOR PALETTE ======== */
+        :root {
+            --primary-color: #2A3F8F;      /* NeuraMedis Navy */
+            --secondary-color: #00B0D4;    /* AI Teal */
+            --accent-color: #6A4C93;       /* Neural Purple */
+            --highlight-color: #E63946;    /* Medical Red */
+            --neutral-light: #F5F7FB;      /* Light Background */
+            --neutral-dark: #1A1A2E;       /* Dark Background */
+            
+            --text-dark: #1e293b;          /* Headings */
+            --text-medium: #64748b;        /* Body text */
+            --text-light: #94a3b8;        /* Metadata */
+            --pure-white: #ffffff;          
+        }
+
+        /* ======== BLOG SECTION STYLES ======== */
+        #blogs {
+            padding: 4rem 0;
+            background: var(--neutral-light);
+        }
+
+        .neuramedis-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .neuramedis-logo {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 2rem;
+            clip-path: circle(50%);
+            object-fit: cover;
+            filter: drop-shadow(0 2px 4px rgba(42, 63, 143, 0.1));
+        }
+
+        /* Blog Card Styles */
+        .blog-grid {
+            display: grid;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .blog-card {
+            background: var(--pure-white);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(42, 63, 143, 0.1);
+        }
+
+        .blog-title {
+            color: var(--text-dark);
+            transition: color 0.3s ease;
+        }
+
+        .blog-card:hover .blog-title {
+            color: var(--secondary-color);
+        }
+
+        /* Blog Tags */
+        .blog-tag {
+            background: rgba(0, 176, 212, 0.1);
+            color: var(--secondary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+        }
+
+        .blog-tag:hover {
+            background: var(--secondary-color);
+            color: var(--pure-white);
+        }
+
+        /* Blog Form Styles */
+        .blog-form-container {
+            background: var(--pure-white);
+            box-shadow: 0 4px 6px rgba(42, 63, 143, 0.05);
+        }
+
+        .form-input:focus {
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(0, 176, 212, 0.1);
+        }
+
+        .form-button {
+            background: var(--highlight-color);
+            transition: all 0.3s ease;
+        }
+
+        .form-button:hover {
+            background: #C5303C;
+            transform: translateY(-2px);
+        }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .blog-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Blogs Section -->
+    <section id="blogs">
+        <div class="neuramedis-header">
+            <img src="logo.jpg" alt="NeuraMedis" class="neuramedis-logo">
+            <h2>Medical AI Insights</h2>
+        </div>
+
+        <!-- Blog Posts Grid -->
+        <div class="blog-grid">
+            <!-- Sample Post 1 -->
+            <article class="blog-card">
+                <p class="blog-date">March 25, 2024</p>
+                <h3 class="blog-title">AI in Radiology: Transforming Diagnostic Accuracy</h3>
+                <p class="blog-excerpt">Exploring how deep learning models are revolutionizing medical imaging analysis...</p>
+                <div class="blog-tags">
+                    <span class="blog-tag">Radiology</span>
+                    <span class="blog-tag">AI Imaging</span>
+                    <span class="blog-tag">Healthcare</span>
+                </div>
+            </article>
+
+            <!-- Sample Post 2 -->
+            <article class="blog-card">
+                <p class="blog-date">March 20, 2024</p>
+                <h3 class="blog-title">Neural Networks in Drug Discovery</h3>
+                <p class="blog-excerpt">How machine learning accelerates pharmaceutical research...</p>
+                <div class="blog-tags">
+                    <span class="blog-tag">Pharma Tech</span>
+                    <span class="blog-tag">ML Research</span>
+                    <span class="blog-tag">Drug Development</span>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
+
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');" id="contact">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h6 class="heading">Contact Me</h6>
+    </div>
+    <div class="group">
+      <div class="one_half first">
+        <ul class="nospace">
+          <li><i class="fas fa-envelope"></i> aswankelvin03@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +254 716 706 426</li>
+          <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+        </ul>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/kelvinaswani" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/Kelvin-Aswani" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://x.com/aswankelvin?s=21" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="https://www.tiktok.com/@neuramedis" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+          <a href="https://www.instagram.com/neuramedis" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="one_half">
+        <form method="post" action="#">
+          <fieldset>
+            <legend>Send Message:</legend>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <div class="one_quarter first">
+      <h6 class="heading">Kelvin Aswani</h6>
+      <p>Medical Student & Software Engineer specializing in AI-driven healthcare solutions.</p>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Quick Links</h6>
+      <ul class="nospace linklist">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Connect</h6>
+      <ul class="nospace linklist">
+        <li><a href="https://www.linkedin.com/in/kelvinaswani" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/Kelvin-Aswani" target="_blank">GitHub</a></li>
+        <li><a href="https://x.com/aswankelvin?s=21" target="_blank">Twitter/X</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Projects</h6>
+      <ul class="nospace linklist">
+        <li><a href="#">NeuraMedis</a></li>
+        <li><a href="#">Medical AI Assistant</a></li>
+        <li><a href="#">Food Delivery System</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+<!-- In the copyright section -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Kelvin Aswani</a></p>
+  </div>
+</div>
+
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
